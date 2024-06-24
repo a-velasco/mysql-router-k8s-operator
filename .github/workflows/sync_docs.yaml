@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Open PR with docs changes
-        uses: a-velasco/discourse-gatekeeper@main
+        uses: canonical/discourse-gatekeeper@main
         id: docs-pr
         with:
           discourse_host: discourse.charmhub.io
